@@ -68,3 +68,24 @@ en Sevilla, Málaga, Granada, Córdoba, Almería y Ceuta. El sistema gestiona:
 | fact_ventas | Hecho | Métricas: cantidad, ingresos, coste, margen |
 
 ---
+
+
+---
+
+## Resultados del benchmarking
+
+| Sistema | Promedio (ms) | Desv. Std (ms) | Mejora vs OLTP |
+|---|---|---|---|
+| OLTP | 1.4671 | 3.0695 | — |
+| STAR Schema | 1.1507 | 1.8527 | +21.57% |
+| SNOWFLAKE Schema | 1.1342 | 1.2064 | +22.69% |
+
+---
+
+## Preguntas de negocio resueltas
+
+1. ¿Cuál es la evolución de ingresos por categoría y sucursal durante los últimos 3 años?
+2. ¿Qué empleados generan mayor volumen de ventas por sucursal y trimestre?
+3. ¿Cuáles son los 10 productos más rentables por margen y rotación?
+4. ¿Qué proveedores tienen mejores plazos de entrega y menores costes?
+5. ¿Cuáles son los clientes con mayor frecuencia de compra y ticket medio?
